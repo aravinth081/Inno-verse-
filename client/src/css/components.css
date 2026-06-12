@@ -314,6 +314,13 @@
   transform: translateY(-4px);
 }
 
+.testimonial-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-3);
+}
+
 .testimonial-project {
   font-size: var(--text-xs);
   color: var(--color-text-tertiary);

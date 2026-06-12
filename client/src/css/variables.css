@@ -41,6 +41,7 @@
   --color-border: #E2E8F0;
   --color-border-light: #F1F5F9;
   --color-border-focus: #2563EB;
+  --color-border-dark: #94A3B8;
 
   /* ── Gradients ── */
   --gradient-primary: linear-gradient(135deg, #2563EB 0%, #4F46E5 100%);

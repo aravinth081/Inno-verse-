@@ -104,7 +104,7 @@ export default function Testimonials() {
                       '--card-accent-gradient': t.gradient,
                     }}
                   >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-3)' }}>
+                    <div className="testimonial-card-header">
                       <div className="testimonial-project">
                         Project: <span className="testimonial-project-name" style={{ color: t.borderHover }}>{t.project}</span>
                       </div>
