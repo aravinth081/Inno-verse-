@@ -1,0 +1,199 @@
+/* ============================================
+   INNOVERSE — Responsive Breakpoints
+   ============================================ */
+
+/* ── Max 1280px — Large Desktops ── */
+@media (max-width: 1280px) {
+  :root {
+    --container-max: 1080px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+/* ── Max 1024px — Tablets Landscape ── */
+@media (max-width: 1024px) {
+  :root {
+    --section-padding: 4.5rem 0;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .contact-sidebar-card {
+    position: static;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+
+  .section-title {
+    font-size: var(--text-3xl);
+  }
+
+  /* ── Show mobile toggle, hide desktop nav ── */
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-cta {
+    display: none;
+  }
+
+  .navbar-mobile-toggle {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+
+  .mobile-menu-overlay {
+    display: block;
+  }
+}
+
+/* ── Max 768px — Tablets Portrait ── */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 3.5rem 0;
+    --container-padding: 0 1.25rem;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: var(--text-2xl);
+  }
+
+  .section-subtitle {
+    font-size: var(--text-base);
+  }
+
+  h1 { font-size: var(--text-3xl); }
+  h2 { font-size: var(--text-2xl); }
+  h3 { font-size: var(--text-xl); }
+}
+
+/* ── Max 480px — Mobile ── */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 0 1rem;
+    --section-padding: 3rem 0;
+  }
+
+  .section-title {
+    font-size: var(--text-xl);
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    padding: var(--space-5) var(--space-4);
+  }
+
+  .stat-number {
+    font-size: var(--text-3xl);
+  }
+
+  .contact-form-card {
+    padding: var(--space-5);
+  }
+
+  .contact-sidebar-card {
+    padding: var(--space-5);
+  }
+
+  .portfolio-filters {
+    gap: var(--space-1);
+  }
+
+  .portfolio-filter-btn {
+    padding: 6px 14px;
+    font-size: var(--text-xs);
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: var(--text-sm);
+  }
+
+  .btn-lg {
+    padding: 12px 24px;
+    font-size: var(--text-sm);
+  }
+}
