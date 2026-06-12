@@ -34,7 +34,7 @@ const Whatsapp = (props) => (
 
 const teamMembers = [
   {
-    name: 'ARAVINTH S',
+    name: 'ARAVINTH  S',
     role: 'CEO & Co-Founder',
     image: team1,
     accent: '#2563EB', // Blue Accent
@@ -44,7 +44,7 @@ const teamMembers = [
     whatsapp: 'https://wa.me/916374995585',
   },
   {
-    name: 'SARAN Y',
+    name: 'SARAN  Y',
     role: 'CEO & Managing Director',
     image: team2,
     accent: '#7C3AED', // Violet Accent
@@ -54,7 +54,7 @@ const teamMembers = [
     whatsapp: 'https://wa.me/916381869897',
   },
   {
-    name: 'SREE HARAN G',
+    name: 'SREE HARAN  G',
     role: 'CEO & Executive Director',
     image: team3,
     accent: '#10B981', // Emerald Accent
