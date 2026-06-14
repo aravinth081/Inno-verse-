@@ -35,7 +35,7 @@ const Whatsapp = (props) => (
 const teamMembers = [
   {
     name: 'ARAVINTH  S',
-    role: 'CEO & Co-Founder',
+    role: 'CEO & Founder',
     image: team1,
     accent: '#2563EB', // Blue Accent
     bio: 'Visionary technologist driving INNOVERSE product architecture and overall startup growth.',
